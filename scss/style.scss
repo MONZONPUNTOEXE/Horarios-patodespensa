@@ -25,6 +25,8 @@ body {
 	font: {
 		size: 100%;
 		family: $primary-font; // variables inside partials > _variables.scss
+		
+		
 	}
 	color: $main-text;
 	background-color: $background;
@@ -101,7 +103,7 @@ Main components
 		width: 100%;
 		overflow-x: auto;
 		/* smooth scrolling on touch devices */
-		-webkit-overflow-scrolling: touch; 
+		-webkit-overflow-scrolling: touch; 	
 	}
 
 	.cd-table-wrapper {
@@ -185,6 +187,7 @@ Main components
 		border-color: $header-border;
 		box-shadow: 2px 0 0 rgba(#000, .1);
 		pointer-events: none;
+		
 
 		h2, li {
 			background-color: transparent;
@@ -246,6 +249,7 @@ Main components
 			background: $header-bg;
 			box-shadow: none;
 			pointer-events: auto;
+				
 		}
 
 		.cd-scroll-right {
